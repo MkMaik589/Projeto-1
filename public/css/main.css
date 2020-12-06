@@ -55,12 +55,6 @@ main{
   margin-left: 15px;
   cursor: pointer;
 }
-/* .search ul li {
-  margin-left: 8px;
-  display: inline-block;
-  float: left;
-  list-style: none;
-} */
 .search{
   float: right;
   display: block;
@@ -108,11 +102,6 @@ header.menu-principal #languages {
 header.menu-principal #languages:hover {
   font-size: 28px;
 }
-/* .lupa{
-  margin-top: 16px;
-  float: left;
-  cursor: pointer;
-} */
 .conteudo{
 width: 60%;
 float: left;
@@ -233,12 +222,9 @@ button.slick-next{
 li.slick-active button{
   background: red;
 }
-
-
 div.widget {
   margin: 10px 0;
 }
-
 div.widget div.title {
   overflow: hidden;
   background: #eee;
@@ -246,16 +232,13 @@ div.widget div.title {
   border-radius: 10px;
   height: 42px;
 }
-
 div.widget div.title h3 {
   font-weight: bold;
-  text-transform: uppercase;
   margin: 0 10px;
   font-size: 18px;
   float: left;
   line-height: 42px;
 }
-
 div.widget div.title a {
   height: 42px;
   line-height: 42px;
@@ -266,4 +249,21 @@ div.widget div.title a {
   text-decoration: none;
   color: #000;
   font-size: 18px;
+}
+div .blocos {
+  margin: 5px 1px;
+  overflow: hidden;
+  background: #ccc;
+  border-radius: 10px;
+  width: 32%;
+  height: 130px;
+  display: inline-block;
+}
+div .widget div#game{
+  float: left;
+  color:red;
+  font-size: 30px;
+  line-height: 42px;
+  color: #74082c;
+  margin-left: 7px;
 }
