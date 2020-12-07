@@ -290,3 +290,12 @@ div .topoo{
   float: right;
   margin: 65px 0 0 0; 
 }
+div .blocosss {
+  margin: 10px 85px;
+  overflow: hidden;
+  background: #ccc;
+  border-radius: 10px;
+  width: 70%;
+  height: 550px;
+  opacity: 0.5;
+}
