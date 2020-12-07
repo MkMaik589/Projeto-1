@@ -116,12 +116,6 @@ background-color: #18384c;
 width: 40%;
 float: left;
 }
-.teste2{
-  display: flex; 
-  float: left;
-  margin-left:80px;
-  margin-top: 7px;
-}
 .footer{
   width: 100%;
   height: 98px;
@@ -157,7 +151,7 @@ float: left;
   height: 30px;
   width: 100%;
   background-color: #212121;
-  }
+}
 .texto2{
 text-align: center;
 background-color: #212121;
@@ -223,7 +217,7 @@ li.slick-active button{
   background: red;
 }
 div.widget {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 div.widget div.title {
   overflow: hidden;
@@ -261,9 +255,38 @@ div .blocos {
 }
 div .widget div#game{
   float: left;
-  color:red;
   font-size: 30px;
   line-height: 42px;
   color: #74082c;
   margin-left: 7px;
+}
+div#fuguete{
+  float:left;
+  margin-left: 15px;
+}
+div.barra-lateral div.title h3{
+  font-weight: bold;
+  margin: 0 0 0 170px;
+  line-height: 35px;
+  font-size: 18px;
+  float:left;
+  color: #d9d9d9;
+}
+div .blocoss {
+  margin: 10px 85px;
+  overflow: hidden;
+  background: #ccc;
+  border-radius: 10px;
+  width: 70%;
+  height: 60px;
+  opacity: 0.5;
+}
+div .fundao {
+background-image: url(/img/fundo-lateral.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+div .topoo{
+  float: right;
+  margin: 65px 0 0 0; 
 }
